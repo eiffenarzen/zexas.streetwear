@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section className="hero">
       <div className="hero-bg">
-        <img src="/mentahan.png" alt="Streetwear Hero Background" className="hero-img" />
+        <img src="./mentahan.png" alt="Streetwear Hero Background" className="hero-img" />
         <div className="hero-overlay"></div>
       </div>
 
