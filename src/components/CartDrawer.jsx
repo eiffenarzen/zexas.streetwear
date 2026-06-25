@@ -1,6 +1,6 @@
 import React from 'react';
 import { X, Plus, Minus, MessageCircle } from 'lucide-react';
-import { createWhatsAppCheckoutUrl } from '../utils/whatsapp';
+import { createWhatsAppCheckoutUrl, formatRupiah } from '../utils/whatsapp';
 import './CartDrawer.css';
 
 export default function CartDrawer({ 
@@ -41,7 +41,7 @@ export default function CartDrawer({
                 <div className="cart-item-details">
                   <h4>{item.name}</h4>
                   <p className="text-muted">Size: {item.size}</p>
-                  <p className="cart-item-price">${item.price}</p>
+                  <p className="cart-item-price">{formatRupiah(item.price)}</p>
                   
                   <div className="quantity-controls">
                     <button onClick={() => updateQuantity(item, -1)}><Minus size={16} /></button>
@@ -61,7 +61,7 @@ export default function CartDrawer({
           <div className="cart-footer glass">
             <div className="cart-total">
               <span>Total</span>
-              <span>${total}</span>
+              <span>{formatRupiah(total)}</span>
             </div>
             <button className="checkout-btn" onClick={handleCheckout}>
               <MessageCircle size={20} />

@@ -6,25 +6,25 @@ const DUMMY_PRODUCTS = [
   {
     id: 1,
     name: 'NOCTURNAL HOODIE',
-    price: 89,
+    price: 350000,
     image: './product_hoodie.png'
   },
   {
     id: 2,
     name: 'ACID WASH TEE',
-    price: 45,
+    price: 150000,
     image: './contoh.png'
   },
   {
     id: 3,
     name: 'PRESSURE HOODIE',
-    price: 89,
+    price: 350000,
     image: './product_hoodie.png'
   },
   {
     id: 4,
     name: 'VINTAGE LOGO TEE',
-    price: 45,
+    price: 150000,
     image: './product_tee.png'
   }
 ];

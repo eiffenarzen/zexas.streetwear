@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
+import { Instagram } from 'lucide-react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import ProductList from './components/ProductList';
+import About from './components/About';
 import CartDrawer from './components/CartDrawer';
 
 function App() {
@@ -67,14 +69,18 @@ function App() {
       <main>
         <Hero />
         <ProductList onAddToCart={handleAddToCart} />
+        <About />
       </main>
 
       <footer style={{ padding: '4rem 0', textAlign: 'center', borderTop: '1px solid rgba(255,255,255,0.1)' }}>
         <div className="container">
-          <p className="text-muted" style={{ fontFamily: '"Bebas Neue", cursive', fontSize: '1.5rem', letterSpacing: '2px' }}>
+          <p className="text-muted" style={{ fontFamily: '"Bebas Neue", cursive', fontSize: '1.5rem', letterSpacing: '2px', marginBottom: '1rem' }}>
             zexas._
           </p>
-          <p className="text-muted" style={{ fontSize: '0.8rem', marginTop: '1rem' }}>
+          <a href="https://instagram.com/zexas._" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', marginBottom: '1rem', color: '#fff', transition: 'color 0.3s' }} onMouseEnter={(e) => e.target.style.color = '#ff3b3b'} onMouseLeave={(e) => e.target.style.color = '#fff'}>
+            <Instagram size={24} />
+          </a>
+          <p className="text-muted" style={{ fontSize: '0.8rem' }}>
             &copy; {new Date().getFullYear()} zexas._ All rights reserved.
           </p>
         </div>
