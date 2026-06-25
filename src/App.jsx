@@ -76,7 +76,7 @@ function App() {
           <p className="text-muted" style={{ fontFamily: '"Bebas Neue", cursive', fontSize: '1.5rem', letterSpacing: '2px', marginBottom: '1rem' }}>
             zexas._
           </p>
-          <a href="https://www.instagram.com/zexas.__?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', marginBottom: '1rem', color: '#fff', transition: 'color 0.3s' }} onMouseEnter={(e) => e.target.style.color = '#ff3b3b'} onMouseLeave={(e) => e.target.style.color = '#fff'}>
+          <a href="https://www.instagram.com/zexas.__" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', marginBottom: '1rem', color: '#fff', transition: 'color 0.3s' }} onMouseEnter={(e) => e.target.style.color = '#ff3b3b'} onMouseLeave={(e) => e.target.style.color = '#fff'}>
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
           </a>
           <p className="text-muted" style={{ fontSize: '0.8rem' }}>
