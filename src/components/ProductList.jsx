@@ -20,12 +20,6 @@ const DUMMY_PRODUCTS = [
     name: 'PRESSURE HOODIE',
     price: 350000,
     image: './product_hoodie.png'
-  },
-  {
-    id: 4,
-    name: 'VINTAGE LOGO TEE',
-    price: 150000,
-    image: './product_tee.png'
   }
 ];
 
