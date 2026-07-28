@@ -19,14 +19,19 @@ const DUMMY_PRODUCTS = [
     id: 3,
     name: 'PIN ZEX.1',
     price: 5000,
-    image: './pin.png',
-    isSmall: true
+    image: './pin.png'
   }
 ];
 
 export default function ProductList({ onAddToCart }) {
   return (
-    <section id="shop" className="product-list-section">
+    <section id="shop" className="product-list-section" style={{
+      backgroundImage: 'linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(./duri.png)',
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      backgroundRepeat: 'no-repeat',
+      backgroundAttachment: 'fixed'
+    }}>
       <div className="container">
         <h2 className="section-title text-center">LATEST ARRIVALS</h2>
         <div className="product-grid">
