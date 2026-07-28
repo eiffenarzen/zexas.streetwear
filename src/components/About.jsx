@@ -4,10 +4,10 @@ import './About.css';
 export default function About() {
   return (
     <section id="about" className="about-section" style={{
-      backgroundImage: 'linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./rante.png)',
-      backgroundSize: '100% 100%, 50%',
-      backgroundPosition: 'center, bottom right',
-      backgroundRepeat: 'no-repeat, no-repeat'
+      backgroundImage: 'url(./rante.png)',
+      backgroundSize: '50% auto',
+      backgroundPosition: 'right bottom',
+      backgroundRepeat: 'no-repeat'
     }}>
       <div className="container about-container">
         <div className="about-content">

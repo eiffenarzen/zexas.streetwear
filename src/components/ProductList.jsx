@@ -26,10 +26,11 @@ const DUMMY_PRODUCTS = [
 export default function ProductList({ onAddToCart }) {
   return (
     <section id="shop" className="product-list-section" style={{
-      backgroundImage: 'linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(./duri.png)',
-      backgroundSize: '100% 100%, 40%',
-      backgroundPosition: 'center, bottom left',
-      backgroundRepeat: 'no-repeat, no-repeat'
+      backgroundImage: 'url(./duri.png)',
+      backgroundSize: 'auto 100%',
+      backgroundPosition: 'left bottom',
+      backgroundRepeat: 'no-repeat',
+      backgroundColor: '#000'
     }}>
       <div className="container">
         <h2 className="section-title text-center">LATEST ARRIVALS</h2>
