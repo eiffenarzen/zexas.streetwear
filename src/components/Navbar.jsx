@@ -29,7 +29,9 @@ export default function Navbar({ cartItemCount, setIsCartOpen }) {
           </div>
 
           <div className="logo">
-            <a href="#">zexas._</a>
+            <a href="#">
+              <img src="./hero_bg.png" alt="Zexas Logo" style={{ height: '40px', objectFit: 'contain' }} />
+            </a>
           </div>
 
           <div className="nav-right">
