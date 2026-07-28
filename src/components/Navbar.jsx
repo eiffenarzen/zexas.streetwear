@@ -30,7 +30,7 @@ export default function Navbar({ cartItemCount, setIsCartOpen }) {
 
           <div className="logo">
             <a href="#">
-              <img src="./logo_up.png" alt="Zexas Logo" style={{ height: '40px', objectFit: 'contain' }} />
+              <img src="./logo_up.png" alt="Zexas Logo" style={{ height: '70px', objectFit: 'contain' }} />
             </a>
           </div>
 
