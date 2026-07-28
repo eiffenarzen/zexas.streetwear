@@ -4,7 +4,7 @@ import './About.css';
 export default function About() {
   return (
     <section id="about" className="about-section" style={{
-      backgroundImage: 'linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(./rante.png)',
+      backgroundImage: 'linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(./rante2.png)',
       backgroundSize: '100% 100%, 50% auto',
       backgroundPosition: 'center, right bottom',
       backgroundRepeat: 'no-repeat, no-repeat'
