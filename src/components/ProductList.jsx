@@ -29,8 +29,7 @@ export default function ProductList({ onAddToCart }) {
       backgroundImage: 'linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(./duri.png)',
       backgroundSize: 'cover',
       backgroundPosition: 'center',
-      backgroundRepeat: 'no-repeat',
-      backgroundAttachment: 'fixed'
+      backgroundRepeat: 'no-repeat'
     }}>
       <div className="container">
         <h2 className="section-title text-center">LATEST ARRIVALS</h2>
