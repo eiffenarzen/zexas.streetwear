@@ -5,21 +5,22 @@ import './ProductList.css';
 const DUMMY_PRODUCTS = [
   {
     id: 1,
-    name: 'NOCTURNAL HOODIE',
-    price: 350000,
-    image: './product_hoodie.png'
+    name: 'BLOCK THE CHAIN (mzd)',
+    price: 120000,
+    image: './produk2.png'
   },
   {
     id: 2,
-    name: 'ACID WASH TEE',
-    price: 150000,
-    image: './contoh.png'
+    name: 'HUE IN LINE',
+    price: 120000,
+    image: './produk1.png'
   },
   {
     id: 3,
-    name: 'PRESSURE HOODIE',
-    price: 350000,
-    image: './product_hoodie.png'
+    name: 'PIN ZEX.1',
+    price: 5000,
+    image: './pin.png',
+    isSmall: true
   }
 ];
 

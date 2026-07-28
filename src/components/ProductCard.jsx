@@ -11,7 +11,7 @@ export default function ProductCard({ product, onAddToCart }) {
     <>
       <div className="product-card">
         <div className="product-image-container">
-          <img src={product.image} alt={product.name} className="product-image" />
+          <img src={product.image} alt={product.name} className={`product-image ${product.isSmall ? 'small-img' : ''}`} />
           <div className="product-overlay">
             <div className="size-selector-header" style={{display: 'flex', justifyContent: 'center', marginBottom: '-5px'}}>
               <button className="size-chart-trigger" style={{color: '#aaa', fontSize: '0.8rem', textDecoration: 'underline'}} onClick={() => setIsSizeChartOpen(true)}>View Size Chart</button>
